@@ -15,12 +15,12 @@
 
 ## 💫 About Me
 
-Hi, I’m Jithendra (G Jithendra) – a passionate developer working at the intersection of AI-driven applications, full-stack development, and cloud computing. I love building end-to-end solutions, from scalable backend APIs to AI-powered applications that solve real-world problems.
+Hi, I’m Jithendra  – a passionate developer working at the intersection of AI-driven applications, full-stack development, and cloud computing. I love building end-to-end solutions, from scalable backend APIs to AI-powered applications that solve real-world problems.
 
 - 🔭 Currently working on **AI/ML systems, full-stack applications, and secure API integrations**
-- 🌱 Exploring **Vision-Language Models, Cloud AI platforms, and Cybersecurity defense systems**
+- 🌱 Exploring **Vision-Language Models, Cloud AI platforms**
 - 🛠️ Skilled in **Python, Java, JavaScript, MERN Stack, React, TailwindCSS, Firebase, MongoDB, SQL, REST/GraphQL APIs**
-- ☁️ Hands-on with **Google Cloud, AWS, IBM AI tools**
+- ☁️ Hands-on with ** AWS, IBM AI tools**
 - 💡 **Interests:**  
   - **AI Applications** → Healthcare, Education, Assistive Technology  
   - **Full-Stack Engineering** → Responsive web apps, API-driven platforms, real-time systems
