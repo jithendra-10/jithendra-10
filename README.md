@@ -1,6 +1,6 @@
 # Hi there, I'm G Jithendra 👋
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=AI%20Driven%20Developer;Full-Stack%20Engineer;Cloud%20Enthusiast;Coder%20%26%20Problem%20Solver&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000" alt="Typing Animation">
 </div>
 
@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/💼-Full%20Stack%20Engineer-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/☁️-Cloud%20Computing-cyan?style=flat-square" />
   <img src="https://img.shields.io/badge/🔎-Open%20to%20Opportunities-blueviolet?style=flat-square" />
-</p>
+</p> -->
 
 ---
 
