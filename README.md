@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Gudidha Jithendra — AI Engineer · Backend & Full Stack">
+  <img src="./assets/header.svg" width="100%" alt="Jithendra Gudidha  — AI Engineer · Backend & Full Stack">
 </p>
 
 <p align="center">
