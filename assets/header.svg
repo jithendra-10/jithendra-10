@@ -73,7 +73,7 @@
 
     <!-- text -->
     <g class="f">
-      <text class="name" x="72" y="138">Gudidha Jithendra</text>
+      <text class="name" x="72" y="138">Jithendra Gudidha</text>
       <text class="sub"  x="74" y="178">AI Engineer · Backend &amp; Full Stack · India</text>
       <rect class="bar" x="74" y="202" width="140" height="4" rx="2" fill="url(#accent)"/>
       <text class="prompt" x="74" y="252">&gt;</text>
