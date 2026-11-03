@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Gudidha Jithendra — AI Engineer, Backend and Full Stack">
+  <title>Gudidha Jithendra — AI Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111B33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#1E2A47"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .f { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .name { font-size: 56px; font-weight: 700; fill: #F1F5F9; letter-spacing: -1px; opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) .2s forwards; }
+    .sub  { font-size: 22px; font-weight: 500; fill: #94A3B8; opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) .45s forwards; }
+    .bar  { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1s cubic-bezier(.2,.7,.2,1) .7s forwards; }
+    .role { font-size: 20px; font-weight: 600; fill: url(#accent); opacity: 0; animation: cycle 9s ease-in-out infinite; }
+    .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; }
+    .prompt { font-size: 20px; font-weight: 600; fill: #3B82F6; opacity: 0; animation: rise .6s ease .9s forwards; }
+    .node { fill: #22D3EE; animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .n2 { animation-delay: .5s; } .n3 { animation-delay: 1s; } .n4 { animation-delay: 1.5s; } .n5 { animation-delay: 2s; } .n6 { animation-delay: 2.5s; }
+    .edge { stroke: #3B82F6; stroke-width: 1.4; stroke-dasharray: 6 8; animation: flow 4s linear infinite; opacity: .55; }
+    .ring { fill: none; stroke: #3B82F6; stroke-opacity: .35; transform-box: fill-box; transform-origin: center; animation: spin 40s linear infinite; }
+    .ring2 { animation-direction: reverse; animation-duration: 60s; stroke: #22D3EE; stroke-opacity: .2; }
+    @keyframes rise  { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes grow  { to { transform: scaleX(1); } }
+    @keyframes cycle { 0%,2% { opacity: 0; transform: translateY(8px); } 8%,30% { opacity: 1; transform: none; } 36%,100% { opacity: 0; transform: translateY(-8px); } }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.6); opacity: .4; } }
+    @keyframes flow  { to { stroke-dashoffset: -56; } }
+    @keyframes spin  { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .name, .sub, .prompt { opacity: 1; } .bar { transform: none; } .r1 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <!-- neural network motif -->
+    <g transform="translate(930 160)">
+      <circle class="ring" r="118" stroke-dasharray="3 10"/>
+      <circle class="ring ring2" r="78" stroke-dasharray="2 6"/>
+      <g>
+        <line class="edge" x1="-90" y1="-60" x2="0" y2="-20"/>
+        <line class="edge" x1="-90" y1="60"  x2="0" y2="-20"/>
+        <line class="edge" x1="-90" y1="-60" x2="0" y2="40"/>
+        <line class="edge" x1="-90" y1="60"  x2="0" y2="40"/>
+        <line class="edge" x1="0"   y1="-20" x2="90" y2="-50"/>
+        <line class="edge" x1="0"   y1="40"  x2="90" y2="-50"/>
+        <line class="edge" x1="0"   y1="-20" x2="90" y2="55"/>
+        <line class="edge" x1="0"   y1="40"  x2="90" y2="55"/>
+      </g>
+      <circle class="node n1" cx="-90" cy="-60" r="6"/>
+      <circle class="node n2" cx="-90" cy="60"  r="6"/>
+      <circle class="node n3" cx="0"   cy="-20" r="7"/>
+      <circle class="node n4" cx="0"   cy="40"  r="7"/>
+      <circle class="node n5" cx="90"  cy="-50" r="6"/>
+      <circle class="node n6" cx="90"  cy="55"  r="6"/>
+    </g>
+
+    <!-- text -->
+    <g class="f">
+      <text class="name" x="72" y="138">Gudidha Jithendra</text>
+      <text class="sub"  x="74" y="178">AI Engineer · Backend &amp; Full Stack · India</text>
+      <rect class="bar" x="74" y="202" width="140" height="4" rx="2" fill="url(#accent)"/>
+      <text class="prompt" x="74" y="252">&gt;</text>
+      <text class="role r1" x="98" y="252">Building LLM-powered products</text>
+      <text class="role r2" x="98" y="252">Shipping production FastAPI backends</text>
+      <text class="role r3" x="98" y="252">Designing AI people can trust</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="18" fill="none" stroke="#1E2A47"/>
+</svg>

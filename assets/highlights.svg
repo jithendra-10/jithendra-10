@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Winner, ABB Accelerator Student Hackathon 2026. National Finalist, Meta × PyTorch OpenEnv Hackathon.">
+  <title>Highlights</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FCD34D"/><stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="0" y="0" width="588" height="150" rx="16"/></clipPath>
+    <clipPath id="c2"><rect x="612" y="0" width="588" height="150" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .f { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .card { opacity: 0; animation: in .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    .c2 { animation-delay: .25s; }
+    .k { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+    .t { font-size: 24px; font-weight: 700; fill: #F1F5F9; }
+    .d { font-size: 16px; fill: #94A3B8; }
+    .sweep { animation: sweep 5s ease-in-out infinite; }
+    .s2 { animation-delay: 2.5s; }
+    .halo { transform-box: fill-box; transform-origin: center; animation: halo 3s ease-in-out infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes sweep { 0% { transform: translateX(-600px); } 40%,100% { transform: translateX(700px); } }
+    @keyframes halo { 0%,100% { transform: scale(1); opacity: .35; } 50% { transform: scale(1.25); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .card { opacity: 1; } }
+  </style>
+
+  <g class="card c1 f">
+    <rect x="0" y="0" width="588" height="150" rx="16" fill="#0F172A" stroke="#1E2A47"/>
+    <g clip-path="url(#c1)"><rect class="sweep" x="0" y="0" width="200" height="150" fill="url(#shine)"/></g>
+    <circle class="halo" cx="78" cy="75" r="34" fill="url(#gold)"/>
+    <circle cx="78" cy="75" r="30" fill="url(#gold)"/>
+    <text x="78" y="86" text-anchor="middle" font-size="30" font-weight="800" fill="#78350F">1</text>
+    <text class="k" x="132" y="52" fill="#FBBF24">WINNER · 2026</text>
+    <text class="t" x="132" y="86">ABB Accelerator Hackathon</text>
+    <text class="d" x="132" y="112">Student track — ConfidenceOS</text>
+  </g>
+
+  <g class="card c2 f">
+    <rect x="612" y="0" width="588" height="150" rx="16" fill="#0F172A" stroke="#1E2A47"/>
+    <g clip-path="url(#c2)"><rect class="sweep s2" x="612" y="0" width="200" height="150" fill="url(#shine)"/></g>
+    <circle class="halo" cx="690" cy="75" r="34" fill="url(#blue)"/>
+    <circle cx="690" cy="75" r="30" fill="url(#blue)"/>
+    <path d="M690 58 l5 11 12 1.5 -9 8 2.5 12 -10.5 -6 -10.5 6 2.5 -12 -9 -8 12 -1.5z" fill="#0B1220"/>
+    <text class="k" x="744" y="52" fill="#38BDF8">NATIONAL FINALIST</text>
+    <text class="t" x="744" y="86">Meta × PyTorch OpenEnv</text>
+    <text class="d" x="744" y="112">OpenEnv Hackathon</text>
+  </g>
+</svg>
